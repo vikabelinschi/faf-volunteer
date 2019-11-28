@@ -1,0 +1,28 @@
+{
+  "volunteerApp": {
+    "ong": {
+      "home": {
+        "title": "Ongs",
+        "createLabel": "Create a new Ong",
+        "createOrEditLabel": "Create or edit a Ong",
+        "notFound": "No Ongs found"
+      },
+      "created": "A new Ong is created with identifier {{ param }}",
+      "updated": "A Ong is updated with identifier {{ param }}",
+      "deleted": "A Ong is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ong {{ id }}?"
+      },
+      "detail": {
+        "title": "Ong"
+      },
+      "name": "Name",
+      "description": "Description",
+      "idno": "Idno",
+      "email": "Email",
+      "address": "Address",
+      "phone": "Phone",
+      "project": "Project"
+    }
+  }
+}

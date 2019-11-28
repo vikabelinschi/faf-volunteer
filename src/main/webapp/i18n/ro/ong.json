@@ -1,0 +1,28 @@
+{
+  "volunteerApp": {
+    "ong": {
+      "home": {
+        "title": "Ongs",
+        "createLabel": "Creeare o nouă entitate Ong",
+        "createOrEditLabel": "Creeare sau editare Ong",
+        "notFound": "No Ongs found"
+      },
+      "created": "A fost creată o nouă entitate Ong cu identificatorul {{ param }}",
+      "updated": "Ong cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Ong cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Ong {{ id }}?"
+      },
+      "detail": {
+        "title": "Ong"
+      },
+      "name": "Name",
+      "description": "Description",
+      "idno": "Idno",
+      "email": "Email",
+      "address": "Address",
+      "phone": "Phone",
+      "project": "Project"
+    }
+  }
+}

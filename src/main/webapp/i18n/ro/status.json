@@ -1,0 +1,23 @@
+{
+  "volunteerApp": {
+    "status": {
+      "home": {
+        "title": "Statuses",
+        "createLabel": "Creeare o nouă entitate Status",
+        "createOrEditLabel": "Creeare sau editare Status",
+        "notFound": "No Statuses found"
+      },
+      "created": "A fost creată o nouă entitate Status cu identificatorul {{ param }}",
+      "updated": "Status cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Status cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Status {{ id }}?"
+      },
+      "detail": {
+        "title": "Status"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

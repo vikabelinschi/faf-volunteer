@@ -1,0 +1,28 @@
+{
+  "volunteerApp": {
+    "ong": {
+      "home": {
+        "title": "Ongs",
+        "createLabel": "Создать новый Ong",
+        "createOrEditLabel": "Создать или отредактировать Ong",
+        "notFound": "No Ongs found"
+      },
+      "created": "Новый Ong создан с идентификатором {{ param }}",
+      "updated": "Ong обновлен с идентификатором {{ param }}",
+      "deleted": "Ong удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Ong {{ id }}?"
+      },
+      "detail": {
+        "title": "Ong"
+      },
+      "name": "Name",
+      "description": "Description",
+      "idno": "Idno",
+      "email": "Email",
+      "address": "Address",
+      "phone": "Phone",
+      "project": "Project"
+    }
+  }
+}
