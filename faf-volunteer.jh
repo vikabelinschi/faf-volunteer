@@ -1,0 +1,77 @@
+
+application {
+  config {
+    baseName volunteer,
+    applicationType monolith,
+    authenticationType jwt
+    packageName md.faf.volunteer,
+    prodDatabaseType postgresql,
+    buildTool maven,
+    clientFramework react,
+    useSass true,
+    testFrameworks [protractor],
+	nativeLanguage en,
+    languages [en, ro, ru]
+  }
+  entities *
+}
+
+DEFAULT_MIN_LENGTH = 4
+DEFAULT_MAX_LENGTH = 50
+
+entity Status {
+  name String required unique maxlength(DEFAULT_MAX_LENGTH)
+  description String required maxlength(1000)
+}
+
+entity Category {
+  name String required unique maxlength(DEFAULT_MAX_LENGTH)
+  description String required maxlength(1000)
+}
+
+entity Project {
+  name String required unique maxlength(255)
+  description String required maxlength(5000)
+  registrationDate LocalDate
+}
+
+entity Ong {
+  name String required unique maxlength(255)
+  description String required maxlength(5000)
+  idno String required unique maxlength(13)
+  email String unique maxlength(DEFAULT_MAX_LENGTH)
+  address String maxlength(DEFAULT_MAX_LENGTH)
+  phone String maxlength(20)
+}
+
+entity VolunteerRequest{
+  registrationDate LocalDate
+}
+
+entity OngRequest{
+  name String required unique maxlength(255)
+  idno String required unique maxlength(13)
+  registrationDate LocalDate
+}
+
+relationship OneToOne {
+  Project{status(name)} to Status
+  Project{category(name)} to Category
+  VolunteerRequest{user(login)} to User
+  VolunteerRequest{project(name)} to Project
+  OngRequest{user(login)} to User
+}
+
+relationship OneToMany {
+	 Ong to Project{ong(name)}
+}
+
+relationship ManyToMany {
+  Project{user(login)} to User{project}
+}
+
+filter OngRequest, VolunteerRequest, Ong, Project
+
+paginate OngRequest, VolunteerRequest, Ong, Project with pagination
+
+service all with serviceImpl
