@@ -1,0 +1,24 @@
+{
+  "volunteerApp": {
+    "volunteerRequest": {
+      "home": {
+        "title": "Volunteer Requests",
+        "createLabel": "Создать новый Volunteer Request",
+        "createOrEditLabel": "Создать или отредактировать Volunteer Request",
+        "notFound": "No Volunteer Requests found"
+      },
+      "created": "Новый Volunteer Request создан с идентификатором {{ param }}",
+      "updated": "Volunteer Request обновлен с идентификатором {{ param }}",
+      "deleted": "Volunteer Request удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Volunteer Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Volunteer Request"
+      },
+      "registrationDate": "Registration Date",
+      "user": "User",
+      "project": "Project"
+    }
+  }
+}

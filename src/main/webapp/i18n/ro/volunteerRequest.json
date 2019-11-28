@@ -1,0 +1,24 @@
+{
+  "volunteerApp": {
+    "volunteerRequest": {
+      "home": {
+        "title": "Volunteer Requests",
+        "createLabel": "Creeare o nouă entitate Volunteer Request",
+        "createOrEditLabel": "Creeare sau editare Volunteer Request",
+        "notFound": "No Volunteer Requests found"
+      },
+      "created": "A fost creată o nouă entitate Volunteer Request cu identificatorul {{ param }}",
+      "updated": "Volunteer Request cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Volunteer Request cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Volunteer Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Volunteer Request"
+      },
+      "registrationDate": "Registration Date",
+      "user": "User",
+      "project": "Project"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "jhiPrefix": "jhi",
+    "languages": [
+      "en",
+      "ro",
+      "ru"
+    ],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "md.faf.volunteer",
+    "packageFolder": "md/faf/volunteer",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [
+      "protractor"
+    ],
+    "websocket": false,
+    "baseName": "volunteer",
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "buildTool": "maven",
+    "clientFramework": "react",
+    "useSass": true,
+    "jhipsterVersion": "6.5.1",
+    "skipUserManagement": false,
+    "clientPackageManager": "npm",
+    "cacheProvider": "ehcache",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "serverPort": "8080",
+    "jwtSecretKey": "MTk1NjA4YTRjNmY0OGUxNGE1YTMxMTQxOTExMjM0ZjBkODc2OTc1NTNiZTg0NjlmMTkxYjBhMjg3ZmQwNDA1ZjkyYjUxNjc4NTAxNTI3Y2VhMzljMjVkZTgxZTMwMmVjMDZmYTE2NTc4ZGUxNGU4MGMxMjNkYzJjZTRiODU5OTg=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "entities": [
+    "Status",
+    "Category",
+    "Project",
+    "Ong",
+    "VolunteerRequest",
+    "OngRequest"
+  ]
+}

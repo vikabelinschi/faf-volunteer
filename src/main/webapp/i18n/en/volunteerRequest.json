@@ -1,0 +1,24 @@
+{
+  "volunteerApp": {
+    "volunteerRequest": {
+      "home": {
+        "title": "Volunteer Requests",
+        "createLabel": "Create a new Volunteer Request",
+        "createOrEditLabel": "Create or edit a Volunteer Request",
+        "notFound": "No Volunteer Requests found"
+      },
+      "created": "A new Volunteer Request is created with identifier {{ param }}",
+      "updated": "A Volunteer Request is updated with identifier {{ param }}",
+      "deleted": "A Volunteer Request is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Volunteer Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Volunteer Request"
+      },
+      "registrationDate": "Registration Date",
+      "user": "User",
+      "project": "Project"
+    }
+  }
+}

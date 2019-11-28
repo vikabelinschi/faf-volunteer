@@ -1,0 +1,25 @@
+{
+  "volunteerApp": {
+    "ongRequest": {
+      "home": {
+        "title": "Ong Requests",
+        "createLabel": "Создать новый Ong Request",
+        "createOrEditLabel": "Создать или отредактировать Ong Request",
+        "notFound": "No Ong Requests found"
+      },
+      "created": "Новый Ong Request создан с идентификатором {{ param }}",
+      "updated": "Ong Request обновлен с идентификатором {{ param }}",
+      "deleted": "Ong Request удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Ong Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Ong Request"
+      },
+      "name": "Name",
+      "idno": "Idno",
+      "registrationDate": "Registration Date",
+      "user": "User"
+    }
+  }
+}

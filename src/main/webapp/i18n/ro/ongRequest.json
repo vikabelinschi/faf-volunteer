@@ -1,0 +1,25 @@
+{
+  "volunteerApp": {
+    "ongRequest": {
+      "home": {
+        "title": "Ong Requests",
+        "createLabel": "Creeare o nouă entitate Ong Request",
+        "createOrEditLabel": "Creeare sau editare Ong Request",
+        "notFound": "No Ong Requests found"
+      },
+      "created": "A fost creată o nouă entitate Ong Request cu identificatorul {{ param }}",
+      "updated": "Ong Request cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Ong Request cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Ong Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Ong Request"
+      },
+      "name": "Name",
+      "idno": "Idno",
+      "registrationDate": "Registration Date",
+      "user": "User"
+    }
+  }
+}

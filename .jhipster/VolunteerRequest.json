@@ -1,0 +1,39 @@
+{
+    "name": "VolunteerRequest",
+    "fields": [
+        {
+            "fieldName": "registrationDate",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "user",
+            "otherEntityRelationshipName": "volunteerRequest",
+            "relationshipName": "user",
+            "otherEntityField": "login",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "project",
+            "otherEntityRelationshipName": "volunteerRequest",
+            "relationshipName": "project",
+            "otherEntityField": "name",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20191128141639",
+    "entityTableName": "volunteer_request",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": true,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "volunteer"
+    ]
+}
