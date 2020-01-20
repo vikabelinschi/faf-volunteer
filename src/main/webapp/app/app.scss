@@ -2,12 +2,12 @@
 // Import Bootstrap source files from node_modules
 @import 'node_modules/bootstrap/scss/bootstrap';
 body {
-  background: #fafafa;
+  background: #353d47;
   margin: 0;
 }
 
 a {
-  color: #533f03;
+  color: #c0865f;
   font-weight: bold;
 }
 
@@ -31,6 +31,7 @@ a {
     padding: 1rem;
     .card {
       padding: 1rem;
+      background-color: #353d47;
     }
     .view-routes {
       height: 100%;

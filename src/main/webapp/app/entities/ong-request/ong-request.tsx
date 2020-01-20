@@ -72,10 +72,6 @@ export class OngRequest extends React.Component<IOngRequestProps, IOngRequestSta
                   <th className="hand" onClick={this.sort('idno')}>
                     <Translate contentKey="volunteerApp.ongRequest.idno">Idno</Translate> <FontAwesomeIcon icon="sort" />
                   </th>
-                  <th className="hand" onClick={this.sort('registrationDate')}>
-                    <Translate contentKey="volunteerApp.ongRequest.registrationDate">Registration Date</Translate>{' '}
-                    <FontAwesomeIcon icon="sort" />
-                  </th>
                   <th>
                     <Translate contentKey="volunteerApp.ongRequest.user">User</Translate> <FontAwesomeIcon icon="sort" />
                   </th>
